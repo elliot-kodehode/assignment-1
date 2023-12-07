@@ -1,65 +1,87 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-/* Navigation bar */
-
-#logo {
-    width:150px;
-}
 body {
-    background-color: rgb(167, 204, 170);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(41, 41, 41);
+  background-color: antiquewhite;
+  text-align: center;
 }
-h1 {
-    font-style: italic; color:blueviolet
+
+/* Header and Navigation bar */
+
+.header {
+  /* width: 100vw;
+  height: 100px; */
+  background-color: rgb(155, 130, 179);
+  border-bottom: 2px black solid;
+  box-shadow: 5px red;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0;
 }
+
+nav #logo {
+  transition: all 0.15s ease-in-out;
+  display: inline-block;
+  width: 140px;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+nav h1 {
+  display: inline-block;
+  padding-left: 1rem;
+}
+
 .italic-text {
-    color: blue;
+  color: blue;
 }
 #cutedoggo {
-    color: rgb(92, 92, 92); 
-    padding: 0px;
+  color: rgb(92, 92, 92);
+  padding: 0px;
 }
 .keyboard {
-    border: solid black 1px;
-    padding: 3px 7px;
-    box-shadow: 2px 2px rgb(63, 63, 63);
-    margin: 12px;
+  border: solid black 1px;
+  padding: 3px 7px;
+  box-shadow: 2px 2px rgb(63, 63, 63);
+  margin: 12px;
 }
 
-.grow:hover { 
-    transform: scale(1,1);
-    animation: 0.3s ease-in-out;
-    font-size: 15px; 
-    width: 10px;
-    text-align: center;
-    color: green;
-    border: solid green 2px;
-    }
+.grow:hover {
+  transform: scale(1, 1);
+  animation: 0.3s ease-in-out;
+  font-size: 15px;
+  width: 10px;
+  text-align: center;
+  color: green;
+  border: solid green 2px;
+}
 
 .box {
-    display: inline-block;
-    text-align: center;
-    line-height: 30px;
-    vertical-align: middle;
-    width: 70px;
-    height: 30px;
-    background-color: bisque;
-    border: 2px black solid;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  width: 70px;
+  height: 30px;
+  background-color: bisque;
+  border: 2px black solid;
 }
 
 .box:hover {
-    transform: scale(1.1);
-    line-height: 27px;
-    color: rgb(155, 30, 30);
-    font-weight: 700;
-    border: rgb(155, 30, 30) solid 3px;
+  transform: scale(1.1);
+  line-height: 27px;
+  color: rgb(155, 30, 30);
+  font-weight: 700;
+  border: rgb(155, 30, 30) solid 3px;
 }
-
 
 .box {
-    padding:2px;
+  padding: 2px;
 }
-
