@@ -7,39 +7,43 @@
     <title>Hello</title>
   </head>
 
-  <!-- navigation bar -->
+  <!-- Header logo and name -->
   <header>
-    <div class=logo>
+    <a href="index.html">
+     <div class=logo-name>
       <img
         src="/images/BrandLogo.png"
         ;
         alt="Logo: Brand inside speechbubble"
         id="logo"
       />
-      <h1>LOGO</h1>
+      <h1 id="top-logo">LOGO</h1>
+     </div>
     </a>
-  </div>
+
+     <!-- Header Navbar -->
     <nav>
-      <div class="navitem" id="show-me"><p>SHOW ME SOMETHING</p></div>
-      <div class="navitem" id="what-this"><p>WHAT'S THIS?</p></div>
-      <div class="navitem" id="dont-click"><p>DON'T CLICK THIS ONE!! (IT'S NOT NICE)</p></div>
+      <div class="navitem" id="show-me"><p href="page2.html"><a href="page2.html">SHOW ME SOMETHING</a></p></div>
     </nav>
   </header>
 
   <body>
     <h1>Document</h1>
 
-    <p>
-      Lorem &nbsp;ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    <div class="content">
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua.
       <span class="italic-text">
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
         ut aliquip ex ea commodo consequat.
       </span>
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-      dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+      dolore eu fugiat nulla pariatur. </p>
+      <p>Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
+    </div>
 
     <figure class="dog-and-text">
       <pre aria-label="Dog made with punctuation" ; id="cutedoggo">
@@ -84,15 +88,7 @@
       ⠀
       <figcaption>A cute dog</figcaption>
     </figure>
-
-    <p>Press the <kbd class="keyboard grow">F</kbd> button to open.</p>
-
     <aside id="sidebar">
       <button class="sidebar-button">Clicky</button>
-      <button class="sidebar-button">Clicky</button>
-      <button class="sidebar-button">Clicky</button>
-      <button class="sidebar-button">Clicky</button>
-      <button class="sidebar-button">Clicky</button>
-    </aside>
   </body>
 </html>

@@ -24,7 +24,7 @@ header {
   align-items: center;
 }
 
-header .logo {
+header .logo-name {
   display: flex;
   padding: 0;
   align-items: center;
@@ -39,21 +39,31 @@ header #logo {
   transform: scale(1.1);
 }
 
-header h1 {
+#top-logo{
   display: inline-block;
   font-stretch: condensed;
   padding: 0;
   height: fit-content;
-}
-nav {
-  /* justify-content: center; */
 }
 
 /* Nav Buttons */
 nav div {
   display: inline-block;
   padding: 10px;
+  text-decoration: none;
 }
+
+body h1 {
+  padding-top: 5vh;
+}
+
+.content {
+  padding: 1vh 0;
+  display: flex;
+  justify-items: center;
+flex-direction: column;
+text-align: center;
+text-wrap: pretty;}
 
 #show-me {
   font-style: italic;
@@ -63,58 +73,13 @@ nav div {
 }
 
 .italic-text {
+  display:block;
   color: blue;
 }
 #cutedoggo {
   color: rgb(92, 92, 92);
   padding: 0px;
 }
-.keyboard {
-  border: solid black 1px;
-  padding: 3px 7px;
-  box-shadow: 2px 2px rgb(63, 63, 63);
-  margin: 12px;
-}
 
-.grow:hover {
-  transform: scale(1, 1);
-  animation: 0.3s ease-in-out;
-  font-size: 15px;
-  width: 10px;
-  text-align: center;
-  color: green;
-  border: solid green 2px;
-}
 
-.box {
-  display: inline-block;
-  text-align: center;
-  line-height: 30px;
-  vertical-align: middle;
-  width: 70px;
-  height: 30px;
-  background-color: bisque;
-  border: 2px black solid;
-}
 
-.box:hover {
-  transform: scale(1.1);
-  line-height: 27px;
-  color: rgb(155, 30, 30);
-  font-weight: 700;
-  border: rgb(155, 30, 30) solid 3px;
-}
-
-.box {
-  padding: 2px;
-}
-#sidebar {
-  display: flex;
-  flex-direction: column;
-  width: fit-content;
-  gap: 10px;
-}
-
-aside .sidebar-button {
-  color: blue;
-}

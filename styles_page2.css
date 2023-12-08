@@ -2,3 +2,85 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(41, 41, 41);
+    background-color: rgb(241, 255, 222);
+    text-align: center;
+  }
+
+/* Header and Navigation bar */
+
+header {
+    display: flex;
+    background-color: rgb(155, 130, 179);
+    border-bottom: 2px black solid;
+    box-shadow: 5px red;
+    justify-content: space-around;
+    text-align: justify;
+    padding: 0;
+    align-items: center;
+  }
+  
+  header .logo-name {
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
+  header #logo {
+    transition: all 0.15s ease-in-out;
+    width: 140px;
+    max-width: 20vh;
+  }
+  
+  #logo:hover {
+    transform: scale(1.1);
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-stretch: condensed;
+    padding: 0;
+    height: fit-content;
+  }
+  
+  /* Nav Buttons */
+  nav div {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  #show-me {
+    font-style: italic;
+    -webkit-text-stroke: 0.5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  /* content */
+.content {display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {display: flex; 
+    justify-content: center;
+    padding: 3vh 0;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border: solid 2px darksalmon;
+    gap: 10px;
+}
+#balderpage {
+    width: 50vw;
+    height: auto;
+    border-radius: 50px;
+    padding-top: 20px;
+}
